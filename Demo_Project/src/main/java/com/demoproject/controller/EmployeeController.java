@@ -55,7 +55,7 @@ public class EmployeeController {
 		
 		esi.saveEmployee(e);
 		
-		return "update success";	
+		return "update successfully";	
 	}
 	
 	@GetMapping("/getsingleemp/{empId}")
@@ -66,4 +66,5 @@ public class EmployeeController {
 		return e;
 		
 	}
+	
 }
