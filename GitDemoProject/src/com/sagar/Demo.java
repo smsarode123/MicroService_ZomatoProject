@@ -18,6 +18,10 @@ public class Demo {
 	{
 		System.out.println("This is m3 method");
 	}
+	public void m5()
+	{
+		System.out.println("This is m5 method");
+	}
 
 	public void m4()
 	{
